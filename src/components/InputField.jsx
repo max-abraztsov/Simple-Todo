@@ -1,9 +1,9 @@
 import React from 'react';
 
-const InputField = ({text, addTodo, handleInput}) => {
+const InputField = ({title, addTodo, handleInput}) => {
     return (
         <label> 
-            <input value={text} onChange={handleInput}/>
+            <input value={title} onChange={handleInput}/>
             <button onClick={addTodo}>Add Todo</button>
         </label>
     );
