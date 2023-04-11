@@ -1,0 +1,14 @@
+li {
+  list-style: none;
+
+}
+
+.delete{
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+input:checked + span{
+  text-decoration: line-through; 
+}
